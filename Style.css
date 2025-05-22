@@ -25,3 +25,20 @@ body
     padding-left: 20px;
     padding: 0 !important;
 }
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+} 
+.fa-bars
+{
+    color: #fff;
+    font-size:30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
