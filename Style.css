@@ -127,7 +127,7 @@ margin-top: 100px;
     margin-right: auto;
     margin-bottom: 40px;
     display: block;
-    transform:translateY(11px);
+    transform:translateY(10px);
  }
 #services .btn-primary
  {
@@ -150,3 +150,12 @@ margin-top: 100px;
     font-weight: 600;
     margin-top: 8%;
  }
+#about-us ul li
+{
+margin: 10px;
+}
+#about-us ul
+{
+    margin-left:20px;
+}
+ /* -----------Testimonials Section----------- */
