@@ -249,7 +249,17 @@ margin-top: 100px;
 {
     box-shadow: none !important;
     border : none;
-    border-radius: ;
+    border-radius: -5;
     margin-top: 30px;
     background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+hr
+{
+
+}
+.copyright
+{
+    margin-bottom:0;
+    padding-bottom: 20px;
+    text-align: center;
 }
