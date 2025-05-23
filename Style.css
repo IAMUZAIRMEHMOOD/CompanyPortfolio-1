@@ -1,3 +1,13 @@
+/* :root {
+  --main-gradient: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.navbar, .footer-box .fa, .btn-primary {
+  background-image: var(--main-gradient);
+  
+} 
+<img src="images/user1.png" loading="lazy" alt="Client 1">  
+*/
 *
 {
     margin: 0;
@@ -249,17 +259,25 @@ margin-top: 100px;
 {
     box-shadow: none !important;
     border : none;
-    border-radius: -5;
+    border-radius: 4px;
     margin-top: 30px;
     background-image: linear-gradient(to right, #a517ba,#5f1782);
 }
-hr
-{
-
-}
 .copyright
 {
-    margin-bottom:0;
-    padding-bottom: 20px;
+    /* margin-bottom:0px;
+    padding-bottom: 20px; */
+    padding: 15px 0;
     text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border-top: 1px solid #FFFF;
+}
+.copyright strong {
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .copyright {
+    font-size: 13px;
+  }
 }
