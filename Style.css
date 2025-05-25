@@ -172,6 +172,11 @@ margin-top: 100px;
     margin-left:20px;
 }
  /* -----------Testimonials Section----------- */
+ #testimonials
+ {
+     padding-top: 50px;
+    padding-bottom: 50px;
+ }
  #container
  {
     margin:50px 0;
@@ -180,7 +185,9 @@ margin-top: 100px;
  {
     border-left: 4px solid #7b1798;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    /* padding-top: 50px; */
+    /* padding-bottom: 50px; */
     /* margin-bottom: 50px; */
 
  }
