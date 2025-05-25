@@ -26,7 +26,8 @@ body
 }
 .navbar
 {
-    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    /* background-image: linear-gradient(to right,#a517ba,#191654); */
+    background-image: linear-gradient((ro right,#203acc,#052a5a));
     padding: 0 !important;
 }
 .navbar-brand img
