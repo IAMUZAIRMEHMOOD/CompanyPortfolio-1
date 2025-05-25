@@ -126,9 +126,10 @@ margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    /* transform: translateY(3.9375rem); */
     transform:translateY(63px);
  }
- .title::after
+ /* .title::after
  {
     content:''; 
     background:#7b1798;
@@ -138,8 +139,9 @@ margin-top: 100px;
     margin-right: auto;
     margin-bottom: 40px;
     display: block;
+    /* transform: translateY(0.73rem); */
     transform:translateY(10px);
- }
+ } */
 #services .btn-primary
  {
     box-shadow: none;
