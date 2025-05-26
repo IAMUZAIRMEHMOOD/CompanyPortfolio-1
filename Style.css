@@ -26,13 +26,13 @@ body
 }
 .navbar
 {
-    background-image: linear-gradient(to right,#a517ba,#191654);
+    background: linear-gradient(to right, #3b78e6, #7c5ccf);
     /* background-image: linear-gradient((ro right,#203acc,#052a5a)); */
     padding: 0 !important;
 }
 .navbar-brand img
 {
-    height:40px;
+    height:75px;
     padding-left: 20px;
     padding: 0 !important;
 }
@@ -59,7 +59,7 @@ body
 
 #banner
 {
-    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    background: linear-gradient(to right, #3b78e6, #7c5ccf);
     color:#fff;
     padding-top: 5%;
 } 
@@ -84,11 +84,14 @@ margin-top: 100px;
     color:#fff;
     text-decoration:none;
 }
- /* #header-wave
+ #header-wave
 {
-  padding-bottom: -10px;
-  margin-bottom: 0;
+  /* padding-bottom: -10px;
+  margin-bottom: 0; */
+  border: none;
+  margin-bottom: 0%;
 } 
+  /*
 .wave-svg
 { 
 
@@ -125,7 +128,7 @@ margin-top: 100px;
  .title::before
  {
     content:'';
-    background:#7b1798;
+    background: linear-gradient(to bottom right, #1e3a8a, #6b21a8); 
     height:5px;
     width:200px;
     margin-left: auto;
@@ -152,8 +155,14 @@ margin-top: 100px;
     border : none;
     padding: 8px 25px;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    background: linear-gradient(to bottom right, #1e3a8a, #6b21a8); 
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
  }
+ #services .btn-primary:hover {
+  filter: brightness(1.1);
+  transform: scale(1.02);
+}
  /* -----------AboutUs Section----------- */
  #about-us
  {
@@ -187,14 +196,26 @@ margin-top: 100px;
  }
  .testimonials
  {
-    border-left: 4px solid #7b1798;
+    /* border-left: 4px solid #7b1798; */
     margin-top: 50px;
     margin-bottom: 50px;
+    position: relative;
     /* padding-top: 50px; */
     /* padding-bottom: 50px; */
     /* margin-bottom: 50px; */
+    
 
  }
+ .testimonials::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(to bottom right, #7b1798, #a855f7);
+    border-radius: 2px; /* optional for slightly rounded edges */
+}
  .testimonials img
  {
     height: 60px;
@@ -233,8 +254,9 @@ margin-top: 100px;
   /* -----------Footer Section----------- */
 #footer
 {
-    background-image: linear-gradient(to right, #a517ba,#5f1782);
-    color:#ffff;
+    background: linear-gradient(to right, #3b78e6, #7c5ccf);
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 /* .footer-img
 {
@@ -246,7 +268,7 @@ margin-top: 100px;
 }
 .footer-box img
 {
-    width: 120px;
+    width: 190px;
     margin-bottom: 20px;
 }
 .footer-box .fa
@@ -258,7 +280,7 @@ margin-top: 100px;
     text-align:center;
     padding-top: 7px;
     border-radius: 50%;
-    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    background: linear-gradient(to right, #4a8efc, #7c5ccf);
 }
 .footer-box .form-control
 {
@@ -275,7 +297,20 @@ margin-top: 100px;
     border : none;
     border-radius: 4px;
     margin-top: 30px;
-    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    background: linear-gradient(to bottom right, #274596, #6b21a8); 
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* transition: all 0.3s ease; */
+    /* background: linear-gradient(to right, #4338ca, #6d28d9); */
+    /* background: linear-gradient(to right, #ffffff, #f3f4f6); */
+    /* background: linear-gradient(to bottom right, #60a5fa, #a78bfa); */
+    /* color: white;  */
+    /* background: linear-gradient(to right, #2563eb, #7c3aed); */
+    /* background: linear-gradient(to right, #2563eb, #7c3aed); */
+}
+.footer-box .btn-primary:hover {
+  filter: brightness(1.1);
+  transform: scale(1.02);
 }
 .copyright
 {
@@ -285,10 +320,11 @@ margin-top: 100px;
     text-align: center;
     font-size: 14px;
     letter-spacing: 0.5px;
-    border-top: 1px solid #FFFF;
+    border-top: 1px solid black;
 }
 .copyright strong {
-  color: #fff;
+  /* color: #1e3a8a;  */
+  color:white;
 }
 @media (max-width: 768px) {
   .copyright {
