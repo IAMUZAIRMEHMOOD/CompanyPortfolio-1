@@ -26,8 +26,8 @@ body
 }
 .navbar
 {
-    /* background-image: linear-gradient(to right,#a517ba,#191654); */
-    background-image: linear-gradient((ro right,#203acc,#052a5a));
+    background-image: linear-gradient(to right,#a517ba,#191654);
+    /* background-image: linear-gradient((ro right,#203acc,#052a5a)); */
     padding: 0 !important;
 }
 .navbar-brand img
@@ -70,6 +70,10 @@ font-weight: 600;
 margin-top: 100px;
 /* text-transform: uppercase; */
 }
+/* .img-fluid
+{
+    width: 490px;
+} */
 .play-btn
 {
     width:45px;
@@ -140,7 +144,6 @@ margin-top: 100px;
     margin-right: auto;
     margin-bottom: 40px;
     display: block;
-    /* transform: translateY(0.73rem); */
     transform:translateY(10px);
  } */
 #services .btn-primary
